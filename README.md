@@ -8,6 +8,7 @@ HTML
 <head>
   <meta charset="UTF-8">
   <title>gotify.js</title>
+  <script src="jquery-1.12.0.min.js"></script>
   <script src="gotify.min.js"></script>
 </head>
 <body>
