@@ -12,7 +12,10 @@ HTML
   <script src="gotify.min.js"></script>
 </head>
 <body>
-  <div class="gotify"></div>
+  <div class="gotify">
+    <div class="close-gotify" onclick="return close_gotify()"></div>
+    <div class="gotify-content"></div>
+  </div>
 </body>
 </html>
 ```
