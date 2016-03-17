@@ -13,8 +13,10 @@ HTML
 </head>
 <body>
   <div class="gotify">
-    <div class="close-gotify" onclick="return close_gotify()"></div>
-    <div class="gotify-content"></div>
+    <div class="gotify-wrap">
+        <div class="close-gotify" onclick="return close_gotify()"></div>
+        <div class="gotify-content"></div>
+    </div>
   </div>
 </body>
 </html>
