@@ -12,12 +12,16 @@ HTML
   <script src="gotify.min.js"></script>
 </head>
 <body>
+
+  <div class="gotify-overlay"></div>
+  
   <div class="gotify">
     <div class="gotify-wrap">
         <div class="close-gotify" onclick="return close_gotify()"></div>
         <div class="gotify-content"></div>
     </div>
   </div>
+  
 </body>
 </html>
 ```
